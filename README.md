@@ -1,5 +1,4 @@
 # Order Matching Engine
-
 A high-performance order matching engine written in Go.
 
 ## Features
@@ -41,8 +40,3 @@ The server will start on port 8080.
 ### Get Order Status
 `GET /api/v1/orders/{order_id}`
 
-## Testing
-Run unit tests:
-```bash
-go test ./internals/engine/...
-```
